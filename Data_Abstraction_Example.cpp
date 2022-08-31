@@ -2,6 +2,9 @@
 
 using namespace std;
 
+
+/* Any C++ program where you implement a class with public and private members is an example of data encapsulation and data abstraction */
+
 class Adder {
 public:
      // constructor
