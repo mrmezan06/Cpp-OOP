@@ -18,6 +18,9 @@ public:
         cout<<"Parent class area : "<<height * width<<endl;
         return height * width;
     }
+
+    // When Only declare function but implement in derived class then it is an interface
+   // virtual int area() = 0;
 };
 
 class Rectangle: public Shape{
