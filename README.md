@@ -1,3 +1,14 @@
+## Build and compile cpp:
+```css
+g++ filename.cpp -o filename.out
+.\filename.out
+```
+## Build Java code and compile:
+```java
+javac filename.java
+java filename
+```
+
 #Java Basic Question And Answer
 
 ### Q1. What is the difference between an Inner Class and a Sub-Class?
