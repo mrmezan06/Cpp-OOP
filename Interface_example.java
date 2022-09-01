@@ -115,4 +115,3 @@ public class Interface_example {
         System.out.println("Cube of 3 is " + Drawable.cube(3));
     }
 }
-//Test
