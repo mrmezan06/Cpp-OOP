@@ -14,11 +14,13 @@ class DBBL implements bank {
     }
 }
 
-/* multiple inheritance is not supported in the case of
-class because of ambiguity. However, it is supported
-in case of an interface because there is no ambiguity.
-It is because its implementation is provided by the
-implementation class. */
+/*
+ * multiple inheritance is not supported in the case of
+ * class because of ambiguity. However, it is supported
+ * in case of an interface because there is no ambiguity.
+ * It is because its implementation is provided by the
+ * implementation class.
+ */
 
 interface Printable {
     void print();
@@ -44,8 +46,45 @@ class Printer2 implements Showable {
     public void print() {
         System.out.println("Inheritance Printing...");
     }
+
     public void show() {
         System.out.println("Inheritance Showing...");
+    }
+}
+
+/* Java 8 Default method */
+
+interface bank2 {
+    float interestRate();
+
+    default float getRate() {
+        return interestRate();
+    }
+}
+
+class SBI2 implements bank2 {
+    public float interestRate() {
+        return 8.5f;
+    }
+}
+
+interface Drawable {
+    void draw();
+
+    /* Default Method another example */
+    default void msg() {
+        System.out.println("default method");
+    }
+
+    // Static method only available in interface
+    static int cube(int x) {
+        return x * x * x;
+    }
+}
+
+class Rectangle implements Drawable {
+    public void draw() {
+        System.out.println("drawing rectangle");
     }
 }
 
@@ -64,5 +103,15 @@ public class Interface_example {
         Printer2 p2 = new Printer2();
         p2.print();
         p2.show();
+
+        // Default method
+        bank2 b2 = new SBI2();
+        System.out.println("Interest rate on SBI is " + b2.getRate());
+        // Another default method example
+        Drawable d = new Rectangle();
+        d.draw();
+        d.msg();
+        // Static method
+        System.out.println("Cube of 3 is " + Drawable.cube(3));
     }
 }
