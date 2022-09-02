@@ -143,3 +143,22 @@ The centralized hub can be removed and the blockchain can be used to directly tr
 A ledger updated in minutes could save millions in collateral and settlement costs, while also automating banks’ creaky and expensive back office systems.
 
 ![alt](./img/Blockhain-solves-top-blockchain-interview-edureka.png)
+
+### Q. What are the key principles in Blockchain that are helpful in eliminating the security threats that needs to be followed?
+
+Ans: Yes, there are a few principles that need to be followed with respect to time. They are:
+
+1. Auditing
+2. Securing applications
+3. Securing testing and similar approaches
+4. Database security
+5. Continuity planning
+6. Digital workforce training
+
+All these principles are basic and are easy to implement. They are helpful in making the transactions records useful.
+
+### Q. Is the Blockchain Different from Banking Ledgers?
+
+Banks and accounting systems use ledgers to track and timestamp transactions. The difference is that the blockchain is completely decentralized and an open source. This means that people do not have to rely on or trust the central bank to keep track of the transactions. The peer-to-peer blockchain technology can keep track of all the transactions without the fear of having them erased or lost.
+
+Furthermore, the blockchain, because of its open-source nature, is more versatile and programmable than central banking ledgers. If programmers need new functionality on the blockchain, they can simply innovate on top of already existing software through consensus. This is difficult for central banks because of all of their regulations and central points of failure.
