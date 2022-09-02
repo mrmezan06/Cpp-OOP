@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <style type="text/css">
+      .container {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        position: relative;
+      }
+      .box {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        color: white;
+        display: none;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%) translateY(-80%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <button class="btn" onclick="toggle()">Show</button>
+      <div class="box">I am popup</div>
+    </div>
+    <script>
+      function toggle() {
+        $(".box").toggle();
+        $(".btn").text($(".box").is(":visible") ? "Hide" : "Show");
+      }
+    </script>
+  </body>
+</html>
