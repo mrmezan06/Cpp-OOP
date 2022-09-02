@@ -99,3 +99,11 @@ Triple DES -> It is a symmetric key algorithm. It is used for encryption and dec
 SHA -> Secure Hash Algorithm. It is a one way hash function. It is used for encryption and decryption of data. It is used for digital signatures. It is used for key exchange. It is used for authentication. It is used for digital certificates. It is used for digital signatures. It is used for key exchange. It is used for authentication. It is used for digital certificates.
 
 MD5 -> Message Digest 5. It is a one way hash function. It is used for encryption and decryption of data. It is used for digital signatures. It is used for key exchange. It is used for authentication. It is used for digital certificates. It is used for digital signatures. It is used for key exchange. It is used for authentication. It is used for digital certificates.
+
+### Some of the popular consensus algorithms are:
+
+- PBFT (Practical Byzantine Fault Tolerance)
+- Proof-of-work
+- Proof-of-stake
+- Delegated proof-of-stake
+- Proof-of-elapsed time
