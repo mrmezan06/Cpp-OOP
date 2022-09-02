@@ -162,3 +162,66 @@ All these principles are basic and are easy to implement. They are helpful in ma
 Banks and accounting systems use ledgers to track and timestamp transactions. The difference is that the blockchain is completely decentralized and an open source. This means that people do not have to rely on or trust the central bank to keep track of the transactions. The peer-to-peer blockchain technology can keep track of all the transactions without the fear of having them erased or lost.
 
 Furthermore, the blockchain, because of its open-source nature, is more versatile and programmable than central banking ledgers. If programmers need new functionality on the blockchain, they can simply innovate on top of already existing software through consensus. This is difficult for central banks because of all of their regulations and central points of failure.
+
+### Multiple Choice Blockchain Interview Questions
+
+#### Q 1. Each block of a Blockchain consists of which of the following?
+
+A hash pointer to the previous block
+Timestamp
+List of transactions
+All of the above [Ans]
+
+#### Q 2. Which of the following is first distributed blockchain implementation?
+
+Bitcoin [Ans]
+Ethereum
+
+#### Q 3. Bitcoin is based on **\_\_\_\_** blockchain?
+
+Private
+Public [Ans]
+Public Permissioned
+Permissioned
+
+#### Q 4. Blockchain can be stored as which of the following?
+
+A flat file
+A Database
+Both of the above [Ans]
+None of the above
+
+#### Q 5. In blockchain, blocks are linked **\_\_\_\_**?
+
+Backward to the previous block [Ans]
+Forward to next block
+Not linked with each other
+
+#### Q 6. The primary benefit of immutability is…
+
+Scalability
+Improved Security
+Tamper Proof
+Increased Efficiency [Ans]
+
+#### Q 7. Hash identifying each block in the Blockchain is generated using which of the following cryptographic algorithm?
+
+SHA128
+SHA256 [Ans]
+
+#### Q 8. A block in the blockchain can never have more than one parent block?
+
+True [Ans]
+False
+
+#### Q 9. Blockchain forks can result in which of the following?
+
+Multiple parent blocks
+Multiple children blocks [Ans]
+
+#### Q 10. Which of the following is asymmetric encryption Algorithm?
+
+Blowfish
+Twofish
+RSA [Ans]
+Tripple DEA
