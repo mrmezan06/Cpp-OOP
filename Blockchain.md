@@ -107,3 +107,39 @@ MD5 -> Message Digest 5. It is a one way hash function. It is used for encryptio
 - Proof-of-stake
 - Delegated proof-of-stake
 - Proof-of-elapsed time
+
+### Q. Name the steps that are involved in the Blockchain project implementation?
+
+Ans: Well, there are total six steps involved in this process and they are:
+
+1. Requirement identification
+2. Screen ideas consideration
+3. Project development for Blockchain
+4. Feasible study on the security
+5. Implementation
+6. Controlling and monitoring the project
+
+### Q. Explain a real-life use-case where Blockchain is being used?
+
+Ans: Blockchain in Stock Market
+
+Problems in Present Stock Market:
+
+- Centralized and expensive
+  - ![alt](./img/centralized-stock-top-blockchain-interview-edureka.png)
+  - Depositories and transfer agents are a single point of failure
+  - Registration, transfer, distribution, scrutineering, courier fees
+  - The more widely held, the higher the administration costs
+- Limited Transparency
+  - Information asymmetry leads to market advantages
+  - Forged securities still a concern
+  - Counterparty risk is systemic
+- How Blockchain solves the problem
+
+The centralized hub can be removed and the blockchain can be used to directly transfer share ownership between investors.
+
+![alt](./img/Blockchain-stock-top-blockchain-interview-edureka.png)
+
+A ledger updated in minutes could save millions in collateral and settlement costs, while also automating banks’ creaky and expensive back office systems.
+
+![alt](./img/Blockhain-solves-top-blockchain-interview-edureka.png)
