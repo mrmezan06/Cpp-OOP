@@ -112,3 +112,148 @@ WHERE Country='Mexico';
 
 JavaScript is an interpreted language. This means we do not have to compile the JavaScript source code before sending it to the browser. An interpreter can take the raw JavaScript code and run it for you.
 <strong>V8</strong> is one of the most popular JavaScript engines, perhaps because it is developed by Google. But the V8 engine is constantly evolving and becoming faster. Apart from Google Chrome, Chromium project, Electron.js, and server-side JavaScript runtime Node.js use the V8 engine.
+
+### Basic JQuery:
+
+```javascript
+$(document).ready(function () {
+  // jQuery methods go here...
+});
+```
+
+```javascript
+$(this).hide() - hides the current element.
+
+$("p").hide() - hides all <p> elements.
+
+$(".test").hide() - hides all elements with class="test".
+
+$("#test").hide() - hides the element with id="test".
+```
+
+### function in jQuery:
+
+```javascript
+function myFunc() {
+  $(".box").toggle();
+}
+```
+
+### JQuery Selector:
+
+| Syntax                   | Description                                                                   |
+| ------------------------ | ----------------------------------------------------------------------------- |
+| $("p")                   | Selects all <p> elements                                                      |
+| $("p.intro")             | Selects all <p> elements with class="intro"                                   |
+| $("p:first")             | Selects the first <p> element                                                 |
+| $("ul li:first")         | Selects the first <li> element of the first <ul>                              |
+| $("ul li:first-child")   | Selects the first <li> element of every <ul>                                  |
+| $("[href]")              | Selects all elements with an href attribute                                   |
+| $("a[target='_blank']")  | Selects all <a> elements with a target attribute value equal to "\_blank"     |
+| $("a[target!='_blank']") | Selects all <a> elements with a target attribute value NOT equal to "\_blank" |
+| $(":button")             | Selects all `<button>` elements and `<input>` elements of type="button"       |
+| $("tr:even")             | Selects all even <tr> elements                                                |
+| $("tr:odd")              | Selects all odd <tr> elements                                                 |
+
+### JQuery Event:
+
+| Mouse Event  | Keyboard Event | Form Event | Document/Window Event |
+| ------------ | -------------- | ---------- | --------------------- |
+| click()      | keypress()     | submit()   | load()                |
+| dblclick()   | keydown()      | change()   | resize()              |
+| mouseenter() | keyup()        | focus()    | scroll()              |
+| mouseleave() |                | blur()     | unload()              |
+
+### jQuery hide() and show():
+
+```javascript
+$("#hide").click(function () {
+  $("p").hide();
+});
+
+$("#show").click(function () {
+  $("p").show();
+});
+
+$("button").click(function () {
+  $("p").toggle();
+});
+```
+
+Syntax:
+
+```javascript
+$(selector).hide(speed, callback);
+
+$(selector).show(speed, callback);
+```
+
+Speed : "slow", "fast", or milliseconds.
+example:
+
+```javascript
+$("button").click(function () {
+  $("p").hide(1000);
+});
+
+$("button").click(function () {
+  $("p").hide(slow);
+});
+```
+
+### jQuery Fading Methods
+
+- fadeIn()
+- fadeOut()
+- fadeToggle()
+- fadeTo()
+
+```javascript
+$("button").click(function () {
+  $("#div1").fadeIn();
+  $("#div2").fadeIn("slow");
+  $("#div3").fadeIn(3000);
+});
+```
+
+### jQuery Sliding Methods
+
+```javascript
+$("#flip").click(function () {
+  $("#panel").slideDown("slow");
+});
+
+$("#flip").click(function () {
+  $("#panel").slideUp();
+});
+```
+
+### jQuery Animate Method
+
+```javascript
+$("button").click(function () {
+  $("div").animate({
+    left: "250px",
+    opacity: "0.5",
+    height: "150px",
+    width: "150px",
+  });
+});
+```
+
+### Note:
+
+By default, all HTML elements have a static position, and cannot be moved.
+To manipulate the position, remember to first set the CSS position property of the element to relative, fixed, or absolute!
+Example:
+
+```HTML
+<div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>
+```
+
+### Is it possible to manipulate ALL CSS properties with the animate() method?
+
+Yes, almost! However, there is one important thing to remember: all property names must be camel-cased when used with the animate() method: You will need to write paddingLeft instead of padding-left, marginRight instead of margin-right, and so on.
+
+Also, color animation is not included in the core jQuery library.
+If you want to animate color, you need to download the Color Animations plugin from jQuery.com.
