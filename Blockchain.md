@@ -70,3 +70,32 @@ Ans: Blockchain consists of a list of records. Such records are stored in blocks
 ### Q 10. How does a block is recognized in the Blockchain approach?
 
 Ans: Every block in this online ledger basically consists of a hash pointer which acts as a link to the block which is prior to it, transaction data and in fact a stamp of time.
+
+### Abbreaviations
+
+RSA -> Rivest Shamir Adleman Algorithm
+DES -> Data Encryption Standard
+AES -> Advanced Encryption Standard
+SHA -> Secure Hash Algorithm
+MD5 -> Message Digest 5
+ECDSA -> Elliptic Curve Digital Signature Algorithm
+ECIES -> Elliptic Curve Integrated Encryption Scheme
+ECC -> Elliptic Curve Cryptography
+ECDH -> Elliptic Curve Diffie Hellman
+ECDLP -> Elliptic Curve Discrete Logarithm Problem
+
+### Widely used cryptographic algorithms
+
+![alt](./img/crypto_algo-top-blockchain-interview-questions-edureka.png)
+
+RSA -> Rivest Shamir Adleman Algorithm. It is a public key algorithm. It is used for encryption and decryption of data. It is used for digital signatures. It is used for key exchange. It is used for authentication. It is used for digital certificates. It is used for digital signatures. It is used for key exchange. It is used for authentication. It is used for digital certificates.
+
+DES -> Data Encryption Standard. It is a symmetric key algorithm. It is used for encryption and decryption of data. It is used for digital signatures. It is used for key exchange. It is used for authentication. It is used for digital certificates. It is used for digital signatures. It is used for key exchange. It is used for authentication. It is used for digital certificates.
+
+AES -> Advanced Encryption Standard. It is a symmetric key algorithm. It is used for encryption and decryption of data. It is used for digital signatures. It is used for key exchange. It is used for authentication. It is used for digital certificates. It is used for digital signatures. It is used for key exchange. It is used for authentication. It is used for digital certificates.
+
+Triple DES -> It is a symmetric key algorithm. It is used for encryption and decryption of data. It is used for digital signatures. It is used for key exchange. It is used for authentication. It is used for digital certificates. It is used for digital signatures. It is used for key exchange. It is used for authentication. It is used for digital certificates.
+
+SHA -> Secure Hash Algorithm. It is a one way hash function. It is used for encryption and decryption of data. It is used for digital signatures. It is used for key exchange. It is used for authentication. It is used for digital certificates. It is used for digital signatures. It is used for key exchange. It is used for authentication. It is used for digital certificates.
+
+MD5 -> Message Digest 5. It is a one way hash function. It is used for encryption and decryption of data. It is used for digital signatures. It is used for key exchange. It is used for authentication. It is used for digital certificates. It is used for digital signatures. It is used for key exchange. It is used for authentication. It is used for digital certificates.
