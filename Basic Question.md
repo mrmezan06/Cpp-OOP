@@ -257,3 +257,10 @@ Yes, almost! However, there is one important thing to remember: all property nam
 
 Also, color animation is not included in the core jQuery library.
 If you want to animate color, you need to download the Color Animations plugin from jQuery.com.
+
+### In Decimal negative binary conversion:
+
+Result = -6
+(6)dec = (0110)binary
+1's compliment = ~(00000110)binary = 11111001
+2's compliment = 11111001 + 1 = (11111010)binary = -6
