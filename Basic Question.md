@@ -264,3 +264,12 @@ Result = -6
 (6)dec = (0110)binary
 1's compliment = ~(00000110)binary = 11111001
 2's compliment = 11111001 + 1 = (11111010)binary = -6
+
+### javascript Map
+
+```javascript
+let x = [1, 2, 3, 4, 5];
+x.map((item) => {
+  return item * 2;
+});
+```
